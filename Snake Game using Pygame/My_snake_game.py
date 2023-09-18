@@ -36,8 +36,8 @@ def snake_create(gameWindow,color,snake_list):
 def gameContinue(score):
     gameWindow.fill(black)
     gamewin_display(f"Game Over! Your Score was {score}! Press Enter to feckin play!",red,20,50)
-    gamewin_display("You are a disappointment!",red,20,90)
-    gamewin_display("This game is a work in progress, so shut up!",red,30,120)
+    gamewin_display("Your mother regrets ever having you,you feckin loser!",red,20,90)
+    gamewin_display("This game is a work in progress,so shut your ass up!",red,30,120)
     pygame.display.flip()
     while True:
         for event in pygame.event.get():
